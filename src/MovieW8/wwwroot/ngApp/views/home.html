@@ -1,0 +1,11 @@
+<h2>Home</h2>
+<p>
+    {{controller.message}}
+</p>
+
+<ul>
+    <li ng-repeat="movie in controller.movies">
+        {{movie.title}} {{movie.director}}
+    </li>
+
+</ul>
